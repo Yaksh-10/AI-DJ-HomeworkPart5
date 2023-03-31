@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+body{
+    background-size: cover;
+}
+.header{
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(234, 10, 185), rgb(139, 7, 139));
+    height: 100px;
+    font-family: 'Alkatra', cursive;
+    color: white;
+    font-size: 20px;
+}
+.header:hover{
+    width: 97%;
+    height: 115px;
+    color: white;
+    font-size: 22px;
+}
+#disk_left{
+    float: left;
+    margin-left: 50px;
+}
+#disk_right{
+    float: right;
+    margin-right: 50px;
+}
+img{
+    width: 200px;
+    border-radius:100px;
+}
+.sv{
+    background: linear-gradient(to right, rgb(41, 255, 194),rgb(29, 133, 161));
+    height: 50px;
+    border-radius: 15px;
+    width: 200px;
+    font-size: 20px;
+    color: black;
+    font-family: cursive;
+    box-shadow: 3px 3px 60px purple;
+}
+.sv:hover{
+    color: black;
+    width: 220px;
+    height: 65px;
+    font-size: 25px;
+}
+canvas{
+    background-color:rgb(253, 49, 83);
+    box-shadow: 3px 3px 60px rgb(253, 49, 83);
+    border-radius: 10px;
+    border: 3px solid rgb(253, 49, 83);
+    padding: 5px;
+}
